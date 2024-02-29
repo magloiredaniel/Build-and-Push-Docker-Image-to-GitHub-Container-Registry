@@ -5,6 +5,9 @@ on: [push]
 jobs:
   build_docker_img:
      runs-on: ubuntu-latest
+     permissions:
+      contents: read
+      packages: write
      env:
        TAG: python-api
        CR_PAT: ${{ secrets.GITHUB_TOKEN }}
