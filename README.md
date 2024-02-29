@@ -16,4 +16,4 @@ We going to see in the official page on **ghcr.io**, clic [HERE](https://docs.gi
 
 
 ## Personal Access Token
-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
+
